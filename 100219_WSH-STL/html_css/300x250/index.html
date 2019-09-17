@@ -91,12 +91,13 @@
             $wnh = $("#wnh"),
             tl;
 
-        tl = new TimelineMax({repeat:2, repeatDelay:3});
+        start = new TimelineMax({onComplete:function(){tl.play()}});
 
-        tl.add("start")
-          .from($animation, 0.5, {autoAlpha:0})
-          
-          .add("frame1")
+        start.from($animation, 0.5, {autoAlpha:0}, "+=0.5")
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3});
+                  
+        tl.add("frame1", "+=0.5")
           .to($bg_dark, 0, {opacity:1}, "frame1")
           .to($bg_light_white, 1, {opacity:1}, "frame1")
 
