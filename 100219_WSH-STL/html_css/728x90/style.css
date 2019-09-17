@@ -48,7 +48,7 @@ body{
 	opacity: 0;
 	width: 728px;
 	height: 90px;
-	background: url(images/bg_light_white2.jpg) no-repeat;
+	background: url(images/bg_light_white1b.jpg) no-repeat;
 }
 
 #bg_endframe{
@@ -189,7 +189,7 @@ body{
 
 #mask8{
 	position: absolute;
-	left: 331px;
+	left: 328px;
 	top: 54px;
 	width: 195px;
 	height: 29px;
@@ -202,21 +202,21 @@ body{
 	top: 0px;
 	width: 195px;
 	height: 29px;
-	background: url(images/tunein.png) no-repeat;
+	background: url(images/tunein_longlead.png) no-repeat;
 }
 
 #wnh_large{
 	position: absolute;
-	left: 47px;
-	top: 8px;
-	width: 634px;
-	height: 77px;
-	background: url(images/wnh_large.png) no-repeat;
+	left: 309px;
+	top: 2px;
+	width: 149px;
+	height: 117px;
+	background: url(images/wnh.png) no-repeat;
 }
 
 #wnh{
 	position: absolute;
-	left: 153px;
+	left: 156px;
 	top: 2px;
 	width: 149px;
 	height: 117px;
