@@ -189,9 +189,9 @@ body{
 
 #mask8{
 	position: absolute;
-	left: 74px;
+	left: 51px;
 	top: 217px;
-	width: 152px;
+	width: 197px;
 	height: 26px;
 	overflow:hidden;
 }
@@ -200,7 +200,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 152px;
+	width: 197px;
 	height: 26px;
 	background: url(images/tunein.png) no-repeat;
 }
