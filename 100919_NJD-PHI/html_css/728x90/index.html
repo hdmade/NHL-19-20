@@ -31,7 +31,7 @@
 
 
                 <!-- FRAME 2 / TAGLINE -->
-<!--         <div id="mask6">
+        <div id="mask6">
           <div id="tag_stage" class="tag"></div>
         </div>
         <div id="mask5">
@@ -48,7 +48,7 @@
         </div>
         <div id="mask1">
           <div id="tag_best" class="tag"></div>
-        </div> -->
+        </div>
 
                 <!-- END FRAME -->
         <div id="bg_endframe"></div>
@@ -105,17 +105,17 @@
           .to($bg_light_color, 1, {opacity:1}, "frame1+=.8")
 
 
-          // .add("frame2", "+=.5")
-          // .to($bg_light_color, 1.8, {opacity:.8}, "frame2")
+          .add("frame2", "+=.5")
+          .to($bg_light_color, 1.8, {opacity:.8}, "frame2")
 
 
-          // .to($wnh_large, 0.25, {opacity:0}, "frame2")
-          // .from($tag_best, 0.25, {xPercent:100, opacity:0}, "frame2+=0.25")
-          // .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
-          // .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
-          // .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.0")
-          // .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.75")
-          // .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
+          .to($wnh_large, 0.25, {opacity:0}, "frame2")
+          .from($tag_best, 0.25, {xPercent:100, opacity:0}, "frame2+=0.25")
+          .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
+          .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
+          .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.0")
+          .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.75")
+          .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
 
           .add("endframe", "+=.5")
           .to($bg_endframe, 0.5, {opacity:1}, "endframe")

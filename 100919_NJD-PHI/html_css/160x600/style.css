@@ -64,7 +64,7 @@ body{
 #mask1{
 	position: absolute;
 	left: 48px;
-	top: 230px;
+	top: 230px;	
 	width: 65px;
 	height: 32px;
 	overflow: hidden;
@@ -217,7 +217,7 @@ body{
 #wnh_large{
 	position: absolute;
 	left: 4px;
-	top: 247px;
+	top: 115px;
 	width: 152px;
 	height: 93px;
 	background: url(images/wnh_large.png) no-repeat;
