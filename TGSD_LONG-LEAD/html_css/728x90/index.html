@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>THANKSGIVING SHOWDOWN 2019 | 728x90</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">
+    var clickTag = "https://www.doubleclickbygoogle.com/";
+  </script>
+
+
+</head>
+<body>
+
+    <div id="banner">
+          <a href="javascript:window.open(window.clickTag)">
+
+        <!-- DIVS -->
+
+        <div id="opening_frame"></div>
+
+        <div id="bg"></div>
+        
+        <div id="player_left"></div>
+		    <div id="player_right"></div>
+			  
+        <div id="teams"></div>
+        <div id="tune_in"></div>
+
+        <div id="logo"></div>
+        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+
+        var $banner = $("#banner"),
+
+            $opening_frame = $("#opening_frame"),
+
+            $logo = $("#logo"),
+            
+            $teams = $("#teams"),
+            $tune_in = $("#tune_in"),
+
+            $player_left = $("#player_left"),
+            $player_right = $("#player_right"),
+
+            $bg = $("#bg"),
+
+            
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:5});
+
+        tl.add("start", "+=.5")
+          .to($banner, 0.5, {autoAlpha:1}, "start")
+
+          .from($opening_frame, .5, {opacity:0, ease: Power1.easeOut}, "start")
+
+          .to($opening_frame, 2, {x:-530, ease: Power1.easeOut}, "start+=3")
+
+          .from($bg, .5, {opacity:0, ease: Power1.easeOut}, "start+=6.5")
+
+          .add("endframe")
+
+          .to($bg, .5, {opacity:100, ease: Power1.easeOut}, "endframe")
+
+          .to($player_left, .5, {x:70, opacity:1, ease: Power1.easeOut}, "endframe")
+
+          .to($player_right, .5, {x:-70, opacity:1, ease: Power1.easeOut}, "endframe")
+
+          .to($logo, .5, {opacity:1, ease: Power1.easeOut}, "endframe")
+
+          .to($teams, .5, {x:30, opacity:1, ease: Power1.easeOut}, "endframe")
+
+          .to($tune_in, .5, {x:-30, opacity:1, ease: Power1.easeOut}, "endframe")
+
+        tl.totalDuration(15);  
+
+
+          ;
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
+
