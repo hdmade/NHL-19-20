@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #fffaf5;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #cfdfe1;
+	visibility: hidden;
+	box-sizing: border-box;
+}
+
+#bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/bg.jpg);
+}
+
+#logo {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/logo.png);
+}
+
+#opening_frame {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1258px;
+	height: 90px;
+	background-image: url(images/opening_frame.jpg);
+}
+
+#player_left {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: -70px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/player_left.png);
+}
+
+#player_right {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: 70px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/player_right.png);
+}
+
+#teams {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: -30px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/teams.png);
+}
+
+#tune_in {
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: 30px;
+	width: 728px;
+	height: 90px;
+	background-image: url(images/tune_in.png);
+}
+
