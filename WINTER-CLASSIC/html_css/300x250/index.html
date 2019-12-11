@@ -28,6 +28,7 @@
         <div id="tagline1"></div>
         <div id="tagline2"></div>
         <div id="tagline3"></div>
+        <div id="tagline4"></div>
         
 <!-- Endframe -->
         <div id="bgendframe"></div>
@@ -64,6 +65,7 @@
             $tagline1 = $("#tagline1"),
             $tagline2 = $("#tagline2"),
             $tagline3 = $("#tagline3"),
+            $tagline4 = $("#tagline4"),
 
             $frame1bg = $("#frame1bg"),
             $frame2bg = $("#frame2bg"),
@@ -95,8 +97,9 @@
           .to($logolarge, 0.5, {opacity:0}, "frame2")
           
           .from($tagline1, 0.5, {opacity:0, ease: Power1.easeOut}, "+=0.5")
-          .from($tagline2, 0.5, {opacity:0, xPercent:20, ease: Power1.easeIn}, "frame2+=1.5")
-          .from($tagline3, 0.5, {opacity:0, xPercent:-20, ease: Power1.easeIn}, "frame2+=1.5")
+          .from($tagline2, 0.5, {opacity:0, ease: Power1.easeOut}, "frame2+=1.3")
+          .from($tagline3, 0.5, {opacity:0, xPercent:20, ease: Power1.easeIn}, "frame2+=1.7")
+          .from($tagline4, 0.5, {opacity:0, xPercent:-20, ease: Power1.easeIn}, "frame2+=1.7")
 
 
           // endframe

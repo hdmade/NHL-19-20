@@ -98,6 +98,15 @@ body{
 	background: url(images/tagline3.png) no-repeat;
 }
 
+#tagline4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/tagline4.png) no-repeat;
+}
+
 /*#tagline2{
 	position: absolute;
 	left: 0px;
