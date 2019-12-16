@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	background-color: #faebc7;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+
+/*#mask1{
+	position: absolute;
+	left: 17px;
+	top: 90px;
+	width: 265px;
+	height: 78px;
+	overflow: hidden;
+}*/
+
+
+/*#mask2{
+	position: absolute;
+	left: 19px;
+	top: 90px;
+	width: 262px;
+	height: 72px;
+	overflow: hidden;
+}*/
+
+#logolarge{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/logo-intro.png) no-repeat;
+}
+
+
+#logoendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 350px;
+	background: url(images/logo-endframe.png) no-repeat;
+}
+
+#tagline1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tagline2.png) no-repeat;
+}
+
+#tagline3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tagline3.png) no-repeat;
+}
+
+#tagline4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tagline4.png) no-repeat;
+}
+
+#frame1bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/frame1bg.jpg) no-repeat;
+}
+
+#bgendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/endframe.jpg) no-repeat;
+}
+
+#players{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/players.png) no-repeat;	
+}
+
+#tunein1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tunein1.png) no-repeat;	
+}
+
+#tunein2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tunein2.png) no-repeat;	
+}
+
+#tunein3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tunein3.png) no-repeat;	
+}
+
+
+
+
+
+
+
+
+
