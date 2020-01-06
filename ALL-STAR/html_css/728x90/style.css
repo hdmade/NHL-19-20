@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #001346;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #001346;
+	box-sizing: border-box;
+}
+
+
+#mask1{
+	position: absolute;
+	left: 17px;
+	top: 90px;
+	width: 265px;
+	height: 78px;
+	overflow: hidden;
+}
+
+
+/*#mask2{
+	position: absolute;
+	left: 19px;
+	top: 90px;
+	width: 262px;
+	height: 72px;
+	overflow: hidden;
+}*/
+
+#logolarge{
+	position: absolute;
+	left: 0px;
+	top: -5px;
+	width: 728px;
+	height: 90px;
+	background: url(images/logo-intro.png) no-repeat;
+}
+
+
+#logoendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 350px;
+	background: url(images/logo-endframe.png) no-repeat;
+}
+
+
+#shape1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/shape1.png) no-repeat;
+}
+#shape2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/shape2.png) no-repeat;
+}
+#shape3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/shape3.png) no-repeat;
+}
+#shape4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/shape4.png) no-repeat;
+}
+
+#shape5{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/shape5.png) no-repeat;
+}
+
+
+
+#tagline1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline2.png) no-repeat;
+}
+
+#tagline3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline3.png) no-repeat;
+}
+
+#tagline4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline4.png) no-repeat;
+}
+
+/*#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 262px;
+	height: 72px;
+	background: url(images/tagline2.png) no-repeat;
+}*/
+
+
+#frame1bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 500px;
+	background: url(images/frame1bg.png) no-repeat;
+}
+
+
+/*#frame2bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 500px;
+	background: url(images/frame2bg-large.png) no-repeat;
+}*/
+
+#bgendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/bg-endframe.png) no-repeat;
+}
+
+
+#divider{
+	position: absolute;
+	left: 11px;
+	top: 176px;
+	width: 279px;
+	height: 66px;
+	background: url(images/divider.png) no-repeat;	
+}
+
+#endframeshape1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/endframe-shape1.png) no-repeat;	
+}
+
+#endframeshape2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/endframe-shape2.png) no-repeat;	
+}
+#endframeshape3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/endframe-shape3.png) no-repeat;	
+}
+
+
+#mask-l{
+	position: absolute;
+	left: 0px;
+	top: 181px;
+	width: 275px;
+	height: 57px;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+#tunein1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tunein1.png) no-repeat;	
+}
+
+#tunein2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tunein2.png) no-repeat;	
+}
+
+#tunein3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tunein3.png) no-repeat;	
+}
+
+
+
+
+
+
+
+
+
