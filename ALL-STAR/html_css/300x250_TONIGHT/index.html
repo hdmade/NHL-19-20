@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL ALLSTAR | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+<!-- Frame 1 -->
+        <div id="bgendframe"></div>
+
+        <div id="frame1bg"></div>
+        
+        <div id="logolarge"></div>
+<!-- Frame 2 -->        
+
+<!-- Frame 3 -->        
+        <div id="shape1"></div>
+        <div id="shape2"></div>
+        <div id="shape3"></div>
+        <div id="shape4"></div>
+        <div id="shape5"></div>
+
+<!-- Frame 3 -->        
+        <div id="tagline1"></div>
+        <div id="tagline2"></div>
+        <div id="tagline3"></div>
+        <div id="tagline4"></div>
+        
+<!-- Endframe -->
+        <div id="endframeshape1"></div>
+        <div id="endframeshape2"></div>
+        <div id="endframeshape3"></div>
+
+       <div id="logoendframe"></div>
+        
+       <div id="tunein1"></div>
+       <div id="tunein2"></div>
+       <div id="tunein3"></div>
+      
+        
+
+      </div>        
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $logolarge = $("#logolarge"),
+
+            $tagline1 = $("#tagline1"),
+            $tagline2 = $("#tagline2"),
+            $tagline3 = $("#tagline3"),
+            $tagline4 = $("#tagline4"),
+
+            $shape1 = $("#shape1"),
+            $shape2 = $("#shape2"),
+            $shape3 = $("#shape3"),
+            $shape4 = $("#shape4"),
+            $shape5 = $("#shape5"),
+
+            $frame1bg = $("#frame1bg"),
+            $frame2bg = $("#frame2bg"),
+            
+            $bgendframe = $("#bgendframe"),
+            $logoendframe = $("#logoendframe"),
+            
+            $endframeshape1 = $("#endframeshape1"),
+            $endframeshape2 = $("#endframeshape2"),
+            $endframeshape3 = $("#endframeshape3"),
+
+
+            $tunein1 = $("#tunein1"),
+            $tunein2 = $("#tunein2"),
+            $tunein3 = $("#tunein3"),
+                  
+            tl;
+
+        tl = new TimelineMax({repeat:1, repeatDelay:4});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "start+=0.5")
+          .from($logolarge, 1, {opacity:0}, "start+=0.5")
+          
+          // Frame 2 - Intro
+          .add("frame2", "+=0.5")
+          
+          .to($logolarge, 0.5, {opacity:0}, "frame2")
+          .to($frame1bg, 0.5, {opacity:0}, "frame2")
+
+          // Frame 3 - Shapes in
+          .add("frame3", "+=0.5")
+          .from($shape1, 0.2, {opacity:0}, "frame3+=0.1")
+          .from($shape2, 0.2, {opacity:0}, "frame3+=0.2")
+          .from($shape3, 0.2, {opacity:0}, "frame3+=0.4")
+          .from($shape4, 0.2, {opacity:0}, "frame3+=0.6")
+          .from($shape5, 0.2, {opacity:0}, "frame3+=0.2")
+
+          // Frame 4 - Shapes out
+          .add("frame4", "+=0.2" )
+          .from($shape1, 0.2, {opacity:0}, "frame4+=0.1")
+          .from($shape2, 0.2, {opacity:0}, "frame4+=0.3")
+          .from($shape3, 0.2, {opacity:0}, "frame4+=0.2")
+          .from($shape4, 0.2, {opacity:0}, "frame4+=0.6")
+          .from($shape5, 0.2, {opacity:0}, "frame4+=0.1")
+
+          // Tagline
+          .add("frame5")
+
+          .from($tagline1, 0.2, {opacity:0, ease: Power1.easeOut}, "+=.2")
+          .from($tagline2, 0.2, {opacity:0, ease: Power1.easeOut}, "+=.2")
+          .from($tagline3, 0.2, {opacity:0, ease: Power1.easeOut}, "+=.2")
+          .from($tagline4, 0.2, {opacity:0, ease: Power1.easeOut}, "+=.2")
+
+          .to($tagline1, 0.2, {opacity:0, ease: Power1.easeOut}, "frame5+=2.5")
+          .to($tagline2, 0.2, {opacity:0, ease: Power1.easeOut}, "frame5+=2.5")
+          .to($tagline3, 0.2, {opacity:0, ease: Power1.easeOut}, "frame5+=2.5")
+          .to($tagline4, 0.2, {opacity:0, ease: Power1.easeOut}, "frame5+=2.5")
+
+
+          // Endframe
+          .add("endframe", "+=.5")
+          
+          .from($endframeshape1, 0.2, {opacity:0}, "endframe")
+          .from($endframeshape2, 0.2, {opacity:0}, "endframe+=0.4")
+          .from($endframeshape3, 0.2, {opacity:0}, "endframe+=0.2")
+
+
+          .from($logoendframe, 0.5, {opacity:0, ease: Power2.easeIn}, "endframe+=0.5")
+
+          .from($tunein1, 0.2, {opacity:0, ease: Power2.easeIn}, "endframe+=1")
+          .from($tunein2, 0.2, {opacity:0, ease: Power2.easeIn}, "endframe+=1.4")
+          .from($tunein3, 0.2, {opacity:0, ease: Power2.easeIn}, "endframe+=1.8")
+
+          // long animations
+          .to($frame1bg, 7, {yPercent:-5}, "start")
+
+        tl.totalDuration(15);
+
+
+    
+    });
+    </script>
+    
+
+</body>
+</html>
+
