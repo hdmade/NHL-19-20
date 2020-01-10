@@ -32,7 +32,7 @@
 
                 <!-- FRAME 2 / TAGLINE -->
         <div id="mask6">
-          <div id="tag_stage" class="tag"></div>
+          <!-- <div id="tag_stage" class="tag"></div> -->
         </div>
         <div id="mask5">
           <div id="tag_biggest" class="tag"></div>
@@ -41,10 +41,10 @@
           <div id="tag_stars" class="tag"></div>
         </div>
         <div id="mask3">
-          <div id="tag_brightest" class="tag"></div>
+          <!-- <div id="tag_brightest" class="tag"></div> -->
         </div>
         <div id="mask2">
-          <div id="tag_teams" class="tag"></div>
+          <!-- <div id="tag_teams" class="tag"></div> -->
         </div>
         <div id="mask1">
           <div id="tag_best" class="tag"></div>
@@ -80,11 +80,11 @@
             $bg_endframe = $("#bg_endframe"),         
             $tag = $(".tag"),
             $tag_best = $("#tag_best"),
-            $tag_teams = $("#tag_teams"),
-            $tag_brightest = $("#tag_brightest"),
+            // $tag_teams = $("#tag_teams"),
+            // $tag_brightest = $("#tag_brightest"),
             $tag_stars = $("#tag_stars"),
             $tag_biggest = $("#tag_biggest"),
-            $tag_stage = $("#tag_stage"),
+            // $tag_stage = $("#tag_stage"),
             $teams = $("#teams"),
             $tunein = $("#tunein"),
             $wnh_large = $("#wnh_large"),
@@ -111,11 +111,11 @@
 
           .to($wnh_large, 0.25, {opacity:0}, "frame2")
           .from($tag_best, 0.25, {xPercent:100, opacity:0}, "frame2+=0.25")
-          .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
-          .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
-          .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.0")
-          .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.75")
-          .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
+          // .from($tag_teams, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.25")
+          // .from($tag_brightest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.0")
+          .from($tag_stars, 0.25, {xPercent:-100, opacity:0}, "frame2+=0.75")
+          .from($tag_biggest, 0.25, {xPercent:100, opacity:0}, "frame2+=1.25")
+          // .from($tag_stage, 0.25, {xPercent:-100, opacity:0}, "frame2+=1.75")          
 
           .add("endframe", "+=.5")
           .to($bg_endframe, 0.5, {opacity:1}, "endframe")

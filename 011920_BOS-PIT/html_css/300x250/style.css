@@ -63,10 +63,10 @@ body{
 
 #mask1{
 	position: absolute;
-	left: 63px;
-	top: 57px;
-	width: 65px;
-	height: 32px;
+	left: 54px;
+	top: 49px;
+	width: 187px;
+	height: 41px;
 	overflow: hidden;
 }
 
@@ -74,12 +74,12 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 65px;
-	height: 32px;
+	width: 187px;
+	height: 41px;
 	background: url(images/tag_best.png) no-repeat;
 }
 
-#mask2{
+/*#mask2{
 	position: absolute;
 	left: 139px;
 	top: 57px;
@@ -95,9 +95,9 @@ body{
 	width: 99px;
 	height: 31px;
 	background: url(images/tag_teams.png) no-repeat;
-}
+}*/
 
-#mask3{
+/*#mask3{
 	position: absolute;
 	left: 25px;
 	top: 110px;
@@ -113,13 +113,13 @@ body{
 	width: 147px;
 	height: 32px;
 	background: url(images/tag_brightest.png) no-repeat;
-}
+}*/
 
 #mask4{
 	position: absolute;
-	left: 184px;
-	top: 111px;
-	width: 92px;
+	left: 131px;
+	top: 109px;
+	width: 39px;
 	height: 31px;
 	overflow: hidden;
 }
@@ -128,17 +128,17 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 92px;
+	width: 39px;
 	height: 31px;
 	background: url(images/tag_stars.png) no-repeat;
 }
 
 #mask5{
 	position: absolute;
-	left: 39px;
-	top: 162px;
-	width: 123px;
-	height: 32px;
+	left: 77px;
+	top: 160px;
+	width: 145px;
+	height: 41px;
 	overflow: hidden;
 }
 
@@ -146,12 +146,12 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 123px;
-	height: 32px;
+	width: 145px;
+	height: 41px;
 	background: url(images/tag_biggest.png) no-repeat;
 }
 
-#mask6{
+/*#mask6{
 	position: absolute;
 	left: 173px;
 	top: 163px;
@@ -167,7 +167,7 @@ body{
 	width: 90px;
 	height: 31px;
 	background: url(images/tag_stage.png) no-repeat;
-}
+}*/
 
 #mask7{
 	position: absolute;
