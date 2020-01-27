@@ -63,10 +63,10 @@ body{
 
 #mask1{
 	position: absolute;
-	left: 8px;
-	top: 278px;	
-	width: 143px;
-	height: 32px;
+	left: 28px;
+	top: 279px;	
+	width: 105px;
+	height: 31px;
 	overflow: hidden;
 }
 
@@ -74,12 +74,12 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 143px;
-	height: 32px;
+	width: 105px;
+	height: 31px;
 	background: url(images/tag_away.png) no-repeat;
 }
 
-#mask4{
+#mask2{
 	position: absolute;
 	left: 65px;
 	top: 330px;
@@ -97,12 +97,12 @@ body{
 	background: url(images/tag_vs.png) no-repeat;
 }
 
-#mask5{
+#mask3{
 	position: absolute;
-	left: 24px;
-	top: 374px;
-	width: 112px;
-	height: 32px;
+	left: 9px;
+	top: 373px;
+	width: 143px;
+	height: 31px;
 	overflow: hidden;
 }
 
@@ -110,16 +110,16 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 112px;
-	height: 32px;
+	width: 143px;
+	height: 31px;
 	background: url(images/tag_home.png) no-repeat;
 }
 
 #mask7{
 	position: absolute;
-	left: 21px;
-	top: 160px;
-	width: 124px;
+	left: 8px;
+	top: 135px;
+	width: 143px;
 	height: 56px;
 	overflow: hidden;
 }
@@ -128,7 +128,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 124px;
+	width: 143px;
 	height: 56px;
 	background: url(images/teams.png) no-repeat;
 }
@@ -136,7 +136,7 @@ body{
 #mask8{
 	position: absolute;
 	left: 25px;
-	top: 238px;
+	top: 214px;
 	width: 110px;
 	height: 66px;
 	overflow:hidden;
@@ -154,10 +154,19 @@ body{
 #wnh{
 	position: absolute;
 	left: 9px;
-	top: 78px;
+	top: 54px;
 	width: 142px;
 	height: 48px;
 	background: url(images/wnh.png) no-repeat;
+}
+
+#att{
+	position: absolute;
+	left: 30px;
+	top: 519px;
+	width: 103px;
+	height: 43px;
+	background: url(images/att.png) no-repeat;
 }
 
 #wnh_large{

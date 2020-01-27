@@ -32,7 +32,7 @@
 
                 <!-- FRAME 2 / TAGLINE -->
         </div>
-        <div id="mask4">
+        <div id="mask2">
           <div id="tag_home" class="tag"></div>
         </div>
         <div id="mask1">
@@ -49,6 +49,8 @@
           <div id="teams"></div>
         </div>
         <div id="wnh"></div>
+        </div>
+        <div id="att"></div>
 
 
       </div>        
@@ -74,6 +76,7 @@
             $tunein = $("#tunein"),
             $wnh_large = $("#wnh_large"),
             $wnh = $("#wnh"),
+            $att = $("#att"),
             tl;
 
         tl = new TimelineMax({repeat:2, repeatDelay:3});
@@ -102,6 +105,7 @@
           .to($bg_endframe, 0.5, {opacity:1}, "endframe")
           .to($tag, 0.25, {opacity:0}, "endframe")
           .from($wnh, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
+          .from($att, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
 
           .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.75")
           .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.75");
