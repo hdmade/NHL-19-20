@@ -70,9 +70,9 @@ body{
 
 #mask2{
 	position: absolute;
-	left: 494px;
+	left: 495px;
 	top: 20px;
-	width: 215px;
+	width: 217px;
 	height: 55px;
 	overflow: hidden;
 }
@@ -81,7 +81,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 215px;
+	width: 217px;
 	height: 55px;
 	background: url(images/tunein.png) no-repeat;
 }
