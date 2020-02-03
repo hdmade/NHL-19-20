@@ -62,7 +62,7 @@ body{
 #snow{
 	position: absolute;
 	left: 0px;
-	top: 89px;
+	top: 95.5px;
 	width: 160px;
 	height: 700px;
 	background: url(images/snow.png) no-repeat;
@@ -70,10 +70,10 @@ body{
 
 #mask2{
 	position: absolute;
-	left: 8px;
-	top: 431px;
-	width: 144px;
-	height: 131px;
+	left: 14px;
+	top: 435px;
+	width: 132px;
+	height: 129px;
 	overflow: hidden;
 }
 
@@ -81,15 +81,15 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 144px;
-	height: 131px;
+	width: 132px;
+	height: 129px;
 	background: url(images/tunein.png) no-repeat;
 }
 
 #logo_large{
 	position: absolute;
 	left: 15px;
-	top: 225px;
+	top: 165px;
 	width: 137px;
 	height: 150px;
 	background: url(images/logo_large.png) no-repeat;
