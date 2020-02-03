@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 
-    <title>Stadium Series | 728x90</title>
+    <title>Stadium Series | 160x600</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name="ad.size" content="width=728, height=90">
+    <meta name="ad.size" content="width=160, height=600">
     <script type="text/javascript">var clickTag = "https://www.google.com";</script>
 
 </head>
@@ -74,20 +74,15 @@
           
           .add("frame1")
           .from($bg_start, 0, {opacity:1}, "frame1")
-          .from($logo_large, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1+=0")
-          .from($snow, 13, {yPercent:-50, opacity:1, ease: Power0.easeOut}, "start+=0")
+          .from($logo_large, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1")
+          .from($snow, 13, {yPercent:-20, opacity:1, ease: Power0.easeOut}, "start+=0")
+          .from($tagline, 0.5, {xPercent:100, opacity:0, ease: Power3.easeOut}, "frame1+=1.0")
+          .to($logo_large, 0.25, {opacity:0}, "frame2+=0.75")
+          .to($bg_start, 0.25, {opacity:0}, "frame2+=0.75")
+      
 
 
-          .add("frame2", "+=-11.0")
-
-          .to($logo_large, 0.25, {opacity:0}, "frame2+=0.5")
-          .to($bg_start, 0.25, {opacity:0}, "frame2+=0.5")
-
-
-          .from($tagline, 0.5, {xPercent:100, opacity:0, ease: Power3.easeOut}, "frame2+=0.75")         
-
-
-          .add("endframe", "+=-8.0")
+          .add("endframe", "+=-10")
           .to($tagline, 0.25, {opacity:0}, "endframe")
           .to($bg_endframe, 0.5, {opacity:1}, "endframe")
           .from($logo, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
