@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #091f40;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #091f3f;
+	box-sizing: border-box;
+}
+
+#bg_start{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/bg_start.jpg) no-repeat;
+}
+
+#bg_endframe{
+	position: absolute;
+	left: 0px;
+	opacity: 0;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/bg_endframe.jpg) no-repeat;
+}
+
+#tagline{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline.png) no-repeat;
+}
+
+#plane{
+	position: absolute;
+	left: 149px;
+	top: 0px;
+	width: 250px;
+	height: 90px;
+	background: url(images/plane.png) no-repeat;
+}
+
+#snow{
+	position: absolute;
+	left: 0px;
+	top: 55px;
+	width: 728px;
+	height: 180px;
+	background: url(images/snow.png) no-repeat;
+}
+
+#mask2{
+	position: absolute;
+	left: 495px;
+	top: 20px;
+	width: 225px;
+	height: 52px;
+	overflow: hidden;
+}
+
+#tunein{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 225px;
+	height: 52px;
+	background: url(images/tunein.png) no-repeat;
+}
+
+#logo_large{
+	position: absolute;
+	left: 85px;
+	top: 13px;
+	width: 558px;
+	height: 64px;
+	background: url(images/logo_large.png) no-repeat;
+}
+
+#logo{
+	position: absolute;
+	left: 409px;
+	top: 5px;
+	width: 75px;
+	height: 82px;
+	background: url(images/logo.png) no-repeat;
+}
+
+
