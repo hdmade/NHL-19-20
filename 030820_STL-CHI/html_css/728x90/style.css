@@ -82,10 +82,10 @@ body{
 
 #logo{
 	position: absolute;
-	left: 80px;
-	top: 18px;
-	width: 167px;
-	height: 55px;
+	left: 637px;
+	top: 5px;
+	width: 90px;
+	height: 84px;
 	background: url(images/logo.png) no-repeat;
 }
 
@@ -127,7 +127,7 @@ body{
 
 #mask3{
 	position: absolute;
-	left: 266px;
+	left: 131px;
 	top: 18px;
 	width: 263px;
 	height: 25px;
@@ -145,7 +145,7 @@ body{
 
 #mask4{
 	position: absolute;
-	left: 266px;
+	left: 150px;
 	top: 50px;
 	width: 224px;
 	height: 26px;
@@ -163,7 +163,7 @@ body{
 
 #att{
 	position: absolute;
-	left: 671px;
+	left: 415px;
 	top: 19px;
 	width: 42px;
 	height: 53px;

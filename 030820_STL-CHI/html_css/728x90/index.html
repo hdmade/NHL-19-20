@@ -106,11 +106,11 @@
           .to($bg_light_color, 1.8, {opacity:.8}, "endframe")
           .to($bg_endframe, 0.5, {opacity:1}, "endframe")
           .to($tag, 0.25, {opacity:0}, "endframe")
-          .from($logo, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
-          .from($att, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
+          // .from($logo, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.5")
 
-          .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.75")
-          .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.75");
+          .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.5")
+          .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.5")
+          .from($att, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.75");
 
     });
     </script>
