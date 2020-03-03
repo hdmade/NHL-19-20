@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL on NBC | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+
+
+
+        <!-- FRAME 1 -->
+
+        <div id="bg_start"></div>
+
+        <div id="logo_large"></div>
+
+
+        <!-- FRAME 2 -->
+
+        <div id="bg_light_white"></div>
+
+        <div id="bg_light_color"></div>
+
+        <div id="mask3">
+          <div id="tag_home" class="tag"></div>
+        </div>
+        <div id="mask2">
+          <div id="tag_vs" class="tag"></div>
+        </div>
+        <div id="mask1">
+          <div id="tag_away" class="tag"></div>
+        </div>
+
+        <!-- ENDFRAME -->
+
+        <div id="bg_endframe"></div>
+
+        <div id="mask5">
+          <div id="tunein"></div>
+        </div>
+        <div id="mask4">
+          <div id="teams"></div>
+        </div>
+        <div id="att"></div>
+
+
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg_start = $("#bg_start"),
+            $bg_light_white = $("#bg_light_white"),
+            $bg_light_color = $("#bg_light_color"), 
+            $bg_endframe = $("#bg_endframe"),
+            $logo_large = $("#logo_large"),
+            $tag = $(".tag"),
+            $tag_away = $("#tag_away"),
+            $tag_vs = $("#tag_vs"),
+            $tag_home = $("#tag_home"),
+            $teams = $("#teams"),
+            $tunein = $("#tunein"),
+            $att = $("#att"),
+
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0})
+          
+          .add("frame1")
+          .from($bg_start, 0.5, {opacity:1}, "frame1")
+          .from($logo_large, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "frame1")
+
+
+          .add("frame2", "+=1")
+          .to($logo_large, 0.25, {opacity:0}, "frame2")
+          .to($bg_start, 0.25, {opacity:0}, "frame2")
+          
+          .to($bg_light_white, 1, {opacity:1}, "frame2+=0.25")
+
+          .from($tag_away, 0.25, {xPercent:100, opacity:0}, "frame2+=0.5")
+          .from($tag_vs, 0.25, {xPercent:-100, opacity:0}, "frame2+=1")
+          .from($tag_home, 0.25, {xPercent:100, opacity:0}, "frame2+=1.5")
+          .to($bg_light_color, 1, {opacity:1}, "frame2+=0.75")         
+
+
+          .add("endframe", "+=1")
+          .to($bg_light_color, 1.8, {opacity:.8}, "endframe")
+          .to($bg_endframe, 0.5, {opacity:1}, "endframe")
+          .to($tag, 0.25, {opacity:0}, "endframe")
+          
+
+          .from($teams, 0.25, {yPercent:100, opacity:0}, "endframe+=0.5")
+          .from($tunein, 0.25, {yPercent:-100, opacity:0}, "endframe+=0.5")
+          .from($att, 0.5, {scaleX:0, scaleY:0, opacity:0, ease: Power3.easeOut}, "endframe+=0.75");
+
+    });
+    </script>
+    
+
+</body>
+</html>
+
