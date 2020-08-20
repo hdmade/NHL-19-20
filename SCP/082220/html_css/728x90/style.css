@@ -64,23 +64,23 @@ body{
 
 	#logo_nbc {
 		position: absolute;
-		left: 363px;
+		left: 380px;
 		top: 47px;	
-		width: 54px;
-		height: 32px;
+		width: 56px;
+		height: 34px;
 		background-image: url(images/logo_nbc.png);
 	}
 
 	#logo_nbcsn {
 		position: absolute;
-		left: 437px;
-		top: 42px;	
-		width: 57px;
-		height: 42px;
+		left: 448px;
+		top: 48px;	
+		width: 169px;
+		height: 36px;
 		background-image: url(images/logo_nbcsn.png);
 	}
 
-	#logo_cnbc {
+/*	#logo_cnbc {
 		position: absolute;
 		left: 512px;
 		top: 43px;	
@@ -96,7 +96,7 @@ body{
 		width: 49px;
 		height: 22px;
 		background-image: url(images/logo_usa.png);
-	}
+	}*/
 
     #cta {
 		position: absolute;

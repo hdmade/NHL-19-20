@@ -103,32 +103,32 @@ body{
 
     #tag {
 		position: absolute;
-		left: 10px;
-		top: 75px;	
-		width: 196px;
-		height: 38px;
+		left: 13px;
+		top: 85px;	
+		width: 211px;
+		height: 41px;
 		background-image: url(images/tag.png);
 	}
 
 	#logo_nbc {
 		position: absolute;
-		left: 24px;
-		top: 123px;	
-		width: 40px;
-		height: 25px;
+		left: 63px;
+		top: 140px;	
+		width: 48px;
+		height: 29px;
 		background-image: url(images/logo_nbc.png);
 	}
 
 	#logo_nbcsn {
 		position: absolute;
-		left: 72px;
-		top: 124px;	
-		width: 120px;
-		height: 25px;
+		left: 123px;
+		top: 139px;	
+		width: 51px;
+		height: 38px;
 		background-image: url(images/logo_nbcsn.png);
 	}
 
-	#logo_cnbc {
+/*	#logo_cnbc {
 		position: absolute;
 		left: 62px;
 		top: 159px;	
@@ -144,7 +144,7 @@ body{
 		width: 36px;
 		height: 16px;
 		background-image: url(images/logo_usa.png);
-	}
+	}*/
 
     #cta {
 		position: absolute;
@@ -157,8 +157,8 @@ body{
 
 	#scp {
 		position: absolute;
-		left: 37px;
-		top: 17px;	
+		left: 48px;
+		top: 22px;	
 		width: 142px;
 		height: 51px;
 		background-image: url(images/scp.png);
