@@ -55,7 +55,7 @@ body{
 
 	#teams {
 		position: absolute;
-		left: 521px;
+		left: 531px;
 		top: 117px;	
 		width: 369px;
 		height: 35px;
@@ -64,25 +64,16 @@ body{
 
 	#tunein {
 		position: absolute;
-		left: 570px;
+		left: 574px;
 		top: 166px;	
-		width: 269px;
+		width: 281px;
 		height: 49px;
 		background-image: url(images/tunein_today.png);
 	}
 
-    #cta {
-		position: absolute;
-		left: 943px;
-		top: 0px;	
-		width: 27px;
-		height: 250px;
-		background-image: url(images/cta.png);
-	}
-
 	#scp {
 		position: absolute;
-		left: 592px;
+		left: 605px;
 		top: 15px;	
 		width: 220px;
 		height: 79px;

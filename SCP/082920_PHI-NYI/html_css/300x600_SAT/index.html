@@ -25,7 +25,6 @@
        <div id="scp"></div> 
 
         <div id="image"></div>
-          <div id="cta"></div>
 
         <div id="teams"></div>
        <div id="tunein"></div>
@@ -64,7 +63,6 @@
         var $animation = $("#animation"),
 
             $bg = $(".bg"),
-            $cta = $("#cta"),
             $image = $("#image"),
             $teams = $("#teams"),
             $tunein = $("#tunein"),
@@ -97,7 +95,6 @@
           .from($teams, 0.35, {opacity:0, xPercent:-100, ease: Power1.easeOut}, "endframe")
           .from($tunein, 0.35, {opacity:0, xPercent:100, ease: Power1.easeOut}, "endframe")
           // .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
-          .from($cta, 0.25, {yPercent:100, ease: Power1.easeOut}, "+=0.2")
 
           .to($bg, 5, {scale:1}, "start")
 

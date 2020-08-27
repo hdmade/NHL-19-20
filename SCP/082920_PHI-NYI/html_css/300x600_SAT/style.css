@@ -70,20 +70,11 @@ body{
 
 	#tunein {
 		position: absolute;
-		left: 68px;
+		left: 64px;
 		top: 242px;	
-		width: 162px;
+		width: 174px;
 		height: 37px;
 		background-image: url(images/tunein_sat.png);
-	}
-
-    #cta {
-		position: absolute;
-		left: 0px;
-		top: 573px;	
-		width: 300px;
-		height: 27px;
-		background-image: url(images/cta.png);
 	}
 
 	#scp {
