@@ -64,10 +64,10 @@ body{
 
 	#tunein {
 		position: absolute;
-		left: 494px;
+		left: 503px;
 		top: 166px;	
-		width: 403px;
-		height: 61px;
+		width: 382px;
+		height: 60px;
 		background-image: url(images/tunein_day.png);
 	}
 
