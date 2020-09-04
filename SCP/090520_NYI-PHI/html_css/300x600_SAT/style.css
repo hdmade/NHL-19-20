@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: -25px;
+		top: 0px;	
+		width: 300px;
+		height: 600px;
+	}
+
+/* FRAME 1 */
+
+
+
+	#tagline1 {
+		position: absolute;
+		left: 25px;
+		top: 160px;	
+		width: 250px;
+		height: 280px;
+		background-image: url(images/tagline1.png);
+	}
+
+	#tagline2 {
+		position: absolute;
+		left: 16px;
+		top: 211px;	
+		width: 270px;
+		height: 178px;
+		background-image: url(images/tagline2.png);
+	}
+
+
+
+
+/* END FRAME */
+	
+
+
+	#image {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;	
+		width: 300px;
+		height: 600px;
+		background-image: url(images/image.png);
+	}
+
+    #teams {
+		position: absolute;
+		left: 15px;
+		top: 207px;	
+		width: 271px;
+		height: 26px;
+		background-image: url(images/teams.png);
+	}
+
+	#tunein {
+		position: absolute;
+		left: 50px;
+		top: 242px;	
+		width: 201px;
+		height: 37px;
+		background-image: url(images/tunein_day.png);
+	}
+
+	#scp {
+		position: absolute;
+		left: 77px;
+		top: 31px;	
+		width: 147px;
+		height: 161px;
+		background-image: url(images/scp.png);
+	}
