@@ -115,9 +115,9 @@ body{
 
 	#scp {
 		position: absolute;
-		left: 25px;
-		top: 27px;	
-		width: 112px;
-		height: 130px;
+		left: 24px;
+		top: 28px;	
+		width: 113px;
+		height: 128px;
 		background-image: url(images/scp.png);
 	}
